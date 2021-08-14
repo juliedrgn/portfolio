@@ -5,17 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Contact me</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"> Home </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header">
+      <p>Nice to meet you, here's something</p>
+      <h1>About me</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col about-description">
+          Hi my name is <b> Julie </b> and I work in marketing. To make the most
+          out of my online knowledge I decided to learn how to code. This
+          website is made by me as a project to learn
+          <b> how to code a website </b>. In my spare time I love to read, knit,
+          make a puzzle, go running or cuddle with my two cats. <br />
+          <br />
+          Fun facts about me:
+          <ul>
+            <li>I look forward to Christmas every day of the year</li>
+            <li>I'm a trained make-up artist</li>
+            <li>You can always wake me up for... breakfast</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <img
+            class="mb-5 img-fluid"
+            src="images/about-me.jpg"
+            alt="about me Julie"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <h2 class="fs-1">Let's get in touch!</h2>
+      <footer>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:julie.dragon@.com" class="email-link"> julie@.com </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.github.com/" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instragram.com/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
